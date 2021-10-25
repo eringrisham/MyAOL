@@ -9,19 +9,19 @@ import { FixMe } from '../../types';
 
 const BottomIcons = ({handleOpen}:FixMe) => {
 	const handleGitHubClick = () => (
-    window.location.assign('https://github.com/eringrisham')
+    window.open('https://github.com/eringrisham')
 	);
 
 	const handleLinkedInClick = () => (
-    window.location.assign('https://www.linkedin.com/in/erin-grisham')
+    window.open('https://www.linkedin.com/in/erin-grisham')
 	);
 
 	const handlePaletteClick = () => {
-		window.location.assign('https://kidpix.app/');
+		window.open('https://kidpix.app/');
 	}
 
 	const handleDiceClick = () => {
-		window.location.assign('https://archive.org/details/msdos_Oregon_Trail_The_1990');
+		window.open('https://archive.org/details/msdos_Oregon_Trail_The_1990');
 	}
 
   return (
