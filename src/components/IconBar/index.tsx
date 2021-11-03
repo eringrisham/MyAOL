@@ -10,48 +10,45 @@ import { FiCoffee } from "react-icons/fi";
 
 
 
-const IconBar = () => {
-
-  return (
-    <IconBarContainer>
-      <Span>
-        <FaFont size={20}/>
-			</Span>
-			<Span>
-        <MdFontDownload size={20}/>
-			</Span>
-      <Verts style={{left: '20%'}}/>
-      <BlackSpan style={{marginLeft: '5%'}}>
-        <BiFontSize size={22} />
-			</BlackSpan>
-      <BlackSpan>
-        <BiFontFamily size={22} />
-			</BlackSpan>
-      <Verts style={{left: '40%'}} />
-      <BlackSpan style={{marginLeft: '3%'}} >
-        <BiBold size={22} />
-			</BlackSpan>
-      <BlackSpan>
-        <GrItalic size={22} />
-			</BlackSpan>
-      <BlackSpan>
-        <GrUnderline size={22} />
-			</BlackSpan>
-      <Verts style={{left: '67%'}}/>
-      <Span style={{marginLeft: '3%'}} >
-        <BsEmojiSunglasses style={{color: 'black', backgroundColor: 'yellow'}} size={20}/>
-			</Span>
-      <BlackSpan>
-        <FaCat size={20}/>
-			</BlackSpan>
-      <BlackSpan>
-        <BsLightningChargeFill size={20}/>
-			</BlackSpan>
-      <BlackSpan>
-        <FiCoffee size={20}/>
-			</BlackSpan>
-    </IconBarContainer>
-  );
-}
+const IconBar = () => (
+  <IconBarContainer>
+    <Span>
+      <FaFont size={20}/>
+    </Span>
+    <Span>
+      <MdFontDownload size={20}/>
+    </Span>
+    <Verts style={{left: '20%'}}/>
+    <BlackSpan style={{marginLeft: '5%'}}>
+      <BiFontSize size={22} />
+    </BlackSpan>
+    <BlackSpan>
+      <BiFontFamily size={22} />
+    </BlackSpan>
+    <Verts style={{left: '40%'}} />
+    <BlackSpan style={{marginLeft: '3%'}} >
+      <BiBold size={22} />
+    </BlackSpan>
+    <BlackSpan>
+      <GrItalic size={22} />
+    </BlackSpan>
+    <BlackSpan>
+      <GrUnderline size={22} />
+    </BlackSpan>
+    <Verts style={{left: '67%'}}/>
+    <Span style={{marginLeft: '3%'}} >
+      <BsEmojiSunglasses style={{color: 'black', backgroundColor: 'yellow'}} size={20}/>
+    </Span>
+    <BlackSpan>
+      <FaCat size={20}/>
+    </BlackSpan>
+    <BlackSpan>
+      <BsLightningChargeFill size={20}/>
+    </BlackSpan>
+    <BlackSpan>
+      <FiCoffee size={20}/>
+    </BlackSpan>
+  </IconBarContainer>
+);
 
 export default IconBar;

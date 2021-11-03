@@ -5,5 +5,22 @@ body {
   background-image: url('https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzA0MzRjZGI4MTJlNjdkMzBmNV93aW5kb3dzX3hwX2JsaXNzLXdpZGUuanBnIl0sWyJwIiwidGh1bWIiLCJ4MzkwPiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MSAtYXV0by1vcmllbnQiXV0/windows_xp_bliss-wide.jpg');
   background-position: center top;
   background-size: 100% auto;
-  /* background-repeat: no-repeat; */
+}
+
+.grid-container {
+  margin-left: 6%;
+  display: grid;
+  grid-template-columns: 350px 600px 350px;
+}
+
+.item1 {
+  grid-column-start: auto;
+}
+
+.item2 {
+  grid-column-start: auto;
+}
+
+.item3 {
+  grid-column-start: auto;
 }

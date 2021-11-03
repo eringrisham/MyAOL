@@ -19,7 +19,7 @@ export const XButton = styled.button`
 	width: 7%;
 	border: 1px white solid;
 	border-radius: 5px;
-	cursor: pointer;
+	cursor: default;
 	padding-left: 1%;
 	font-size: 25px;
 `
@@ -29,6 +29,7 @@ export const MinButton = styled(XButton)`
 	text-align: left;
 	font-size: 25px;
 	background-color: rgb(2,71,254);
+	cursor: default;
 `
 export const MaxButton = styled(MinButton)`
   right: 9%;

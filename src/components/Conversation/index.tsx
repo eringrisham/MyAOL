@@ -26,6 +26,16 @@ const Conversation = () => {
 
 	}, [displayMessages]);
 
+
+
+//**WHAT I TRIED */
+	// useEffect(() => {
+	// 	if (messageIndex <= messages.length - 1) {
+	// 		const timer: ReturnType<typeof setTimeout> = setInterval(() => setMessageIndex(messageIndex + 1), 2000);
+	// 		return () => clearInterval(timer);
+	// 	}
+	// })
+
   return (
     <ConversationContainer>
 			{messageIndex <= 2 ? (<Message1 screenName={screenName} />) : null}
