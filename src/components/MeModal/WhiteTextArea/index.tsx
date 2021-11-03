@@ -40,7 +40,6 @@ const WhiteTextArea = () => (
 		  eating & traveling (often together).
 		</MessageSpan>
 		<br/>
-		<br/>
 		<MessageSpan style={{paddingLeft: '29%'}}>
 		  Email me:
 		</MessageSpan>
