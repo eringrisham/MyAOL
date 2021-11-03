@@ -29,8 +29,8 @@ const MeModal = ({handleAboutMeOpen}:FixMe) => (
         </span>
       </XButton>
     </TopBarContainer>
-		<div style={{height: '300%', top: '64%', zIndex: 4000, position: 'absolute', color: 'rgb(2,71,254)', cursor: 'default', left: '-14%'}}>
-			<img style={{height: '12%'}} src={Bitmoji} alt="Bitmoji Me"/>
+		<div style={{height: '300%', top: '65%', zIndex: 4000, position: 'absolute', color: 'rgb(2,71,254)', cursor: 'default', left: '-14%'}}>
+			<img style={{height: '11.7%'}} src={Bitmoji} alt="Bitmoji Me"/>
 		</div>
 		<GrayModalInnerContainer/>
 	</MeModalContainer>

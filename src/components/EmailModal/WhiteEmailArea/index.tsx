@@ -36,19 +36,19 @@ const WhiteEmailArea = () => {
     <ConversationContainer>
 			<MessageSpan>
 				<form style={{marginLeft: '10%'}} ref={form} onSubmit={sendEmail}>
-				<label style={{fontWeight: 'bold'}}>Your Name</label>
+				<label aria-labelledby='username' style={{fontWeight: 'bold'}}>Your Name</label>
 				<br/>
-				<input onChange={handleChange} value={input.user_name} style={{width: '85%', fontFamily: 'inherit', fontSize: '16px'}} type="text" name="user_name" />
-				<br/>
-				<br/>
-				<label style={{fontWeight: 'bold'}}>Your Email</label>
-				<br/>
-				<input onChange={handleChange} value={input.user_email} style={{width: '85%', fontFamily: 'inherit', fontSize: '16px'}} type="email" name="user_email" />
+				<input onChange={handleChange} value={input.user_name} style={{width: '85%', fontFamily: 'inherit', fontSize: '16px'}} type="text" name="user_name" aria-label='username'/>
 				<br/>
 				<br/>
-				<label style={{fontWeight: 'bold'}}>Message</label>
+				<label aria-labelledby='email' style={{fontWeight: 'bold'}}>Your Email</label>
 				<br/>
-				<textarea onChange={handleChange} value={input.message} style={{width: '85%', height: '70px', fontFamily: 'inherit', fontSize: '16px'}} name="message" />
+				<input onChange={handleChange} value={input.user_email} style={{width: '85%', fontFamily: 'inherit', fontSize: '16px'}} type="email" name="user_email" aria-label='email'/>
+				<br/>
+				<br/>
+				<label aria-labelledby='message' style={{fontWeight: 'bold'}}>Message</label>
+				<br/>
+				<textarea onChange={handleChange} value={input.message} style={{width: '85%', height: '70px', fontFamily: 'inherit', fontSize: '16px'}} name="message" aria-label='message'/>
 				<br/>
 				<button onClick={handleSubmit} style={{width: '40%', fontFamily: 'inherit', fontSize: '24px', fontWeight: 'bold'}} type="submit" value="Send">
 				  Send

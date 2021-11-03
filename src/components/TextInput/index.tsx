@@ -4,7 +4,9 @@ import { TextInputContainer, FormContainer } from './styles.css'
 const TextInput = () => (
   <TextInputContainer>
     <FormContainer>
-      <input type='text'/>
+      <label aria-labelledby='fake input form'>
+      <input type='text' aria-label='fake input form'/>
+      </label>
     </FormContainer>
   </TextInputContainer>
 );
