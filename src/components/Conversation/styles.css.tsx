@@ -13,7 +13,7 @@ export const ConversationContainer = styled.div`
 	cursor: default;
 `
 export const ScreenNameSpan = styled.span`
-  color: darkred;
+  color: #cd2026;
   margin-left: 1%;
   font-size: 18px;
   font-weight: bold;

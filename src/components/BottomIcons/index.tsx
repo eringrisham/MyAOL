@@ -35,7 +35,7 @@ const BottomIcons = ({handleAboutMeOpen, handleEmailOpen}:FixMe) => {
 			</Span>
 			<Verts/>
 			<Span style={{marginLeft: '7%'}} >
-				<GiPalette style={{color: 'brown', cursor: 'pointer'}} onClick={handlePaletteClick} size={40}/>
+				<GiPalette style={{color: 'darkred', cursor: 'pointer'}} onClick={handlePaletteClick} size={40}/>
 			</Span>
 			<Span style={{marginLeft: '5%'}}>
 				<GiRollingDices size={40} style={{cursor: 'pointer', color: 'black'}} onClick={handleDiceClick}/>
