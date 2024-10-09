@@ -12,7 +12,7 @@ const WhiteTextArea = () => (
 		</MessageSpan>
 		<br/>
 		<MessageSpan>
-			NYC! Here's a little bit about me...
+			SD! Here's a little bit about me...
 		</MessageSpan>
 		<br/>
 		<br/>
